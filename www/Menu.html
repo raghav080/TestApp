@@ -1,0 +1,29 @@
+<html>
+<head>
+     <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Test App</title>
+        <script type="text/javascript" src="cordova.js">
+
+        </script>
+</head>
+<body>
+<p id="text1">Hello Adithi</p>
+<button onclick="test()">Submit</button>
+
+<script>
+function test() {
+document.getElementById("text1").innerHTML = "How are you Adithi";
+}
+var hotel = { 
+name : "McDonald",
+loc : "Bangalore",
+online : "YES",
+distance: function() {
+return 30;
+}
+};
+document.getElementById("text1").innerHTML = "Hotel name: " + hotel.name + " Distance from Home " + hotel.distance() + "KM";
+</script>
+</body>
+</html>

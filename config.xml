@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.app2" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MyApp2</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <preference name="orientation" value="portrait" />
+    <splash density="land-ldpi" src="android/android/splash.png" />
+    <splash density="port-ldpi" src="android/android/splash.png" />
+        <splash density="port-mdpi" src="android/android/splash.png" />
+        <splash density="port-hdpi" src="android/android/splash.png" />
+        <splash density="port-xhdpi" src="android/android/splash.png" />
+        <splash density="port-xxhdpi" src="android/android/splash.png" />
+        <splash density="port-xxxhdpi" src="android/android/splash.png" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <splash src="splash.png" />
+    <platform name="android" />
+    <platform name="ios" />
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-spashscreen" source="npm" />
+</widget>
