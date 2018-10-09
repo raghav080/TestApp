@@ -21,5 +21,5 @@
     <platform name="ios" />
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-spashscreen" source="npm" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
 </widget>
